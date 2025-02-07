@@ -7,10 +7,24 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.House
 {
-    internal class SmartHouse
-    {
-        private List<RoomTemplate> rooms = new List<RoomTemplate>;
+    public abstract class SmartHouseTemplate
+    {   
 
+        public string address {  get; protected set; }
+        public string name { get; protected set; }
+        public int value { get; protected set; }
+
+        private List<RoomTemplate> rooms = new List<RoomTemplate>();
+
+
+        public SmartHouseTemplate(string address,string name,int value)
+        {
+            this.address = address;
+            this.name = name;
+            this.value = value;
+
+            Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD");
+        }
         public void AddNewRoom(RoomTemplate room)
         {
             rooms.Add(room);

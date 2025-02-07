@@ -1,2 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using SmartHouseProject.Models.Devices;
+using SmartHouseProject.Models.House;
+using SmartHouseProject.Models.Rooms;
+
+class Program
+{
+    static void Main()
+    {
+    }
+        
+}

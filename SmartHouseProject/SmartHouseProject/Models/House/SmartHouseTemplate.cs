@@ -28,7 +28,7 @@ namespace SmartHouseProject.Models.House
 
             Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD, size: {size}m2.");
         }
-        public void AddNewRoom(RoomTemplate room)
+        public void AddNewFloor(RoomTemplate room)
         {
             rooms.Add(room);
         }

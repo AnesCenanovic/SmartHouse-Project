@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartHouseProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c4eed9e60536ab19e76d6eb7bfd5bf1061a6145")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eace5c58db004b84b5cc0fa1ae87ef7c19ff43cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartHouseProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartHouseProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

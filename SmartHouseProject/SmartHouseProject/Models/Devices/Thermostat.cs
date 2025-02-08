@@ -15,7 +15,7 @@ namespace SmartHouseProject.Models.Devices
         }
             
         public void SetTemperature(int temperature) {
-            if (state) { 
+            if (State) { 
                 if (temperature < 10)
                 {
                     throw new ArgumentOutOfRangeException("Temperature cannot be set under 10°C.");
@@ -37,7 +37,7 @@ namespace SmartHouseProject.Models.Devices
 
         public override void statusReport()
         {
-            Console.WriteLine($"Report : device: {Name}, state: {(state ? "ON" : "OFF")}, temperature: {TemperatureSetting}°C");
+            Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, temperature: {TemperatureSetting}°C");
         }
     }
 }

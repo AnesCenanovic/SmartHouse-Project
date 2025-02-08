@@ -25,7 +25,7 @@ namespace SmartHouseProject.Models.Devices
 
         public void ToggleWash(int number)
         {
-            if (state && IsRunning)
+            if (State && IsRunning)
             {
                 switch (number)
                 {
@@ -52,7 +52,7 @@ namespace SmartHouseProject.Models.Devices
         }
         public void StartCycle()
         {
-            if (!state)
+            if (!State)
             {
                 throw new InvalidOperationException("Cannot start cycle when washing machine is off");
             }
@@ -67,7 +67,7 @@ namespace SmartHouseProject.Models.Devices
         }
         public void EndCycle()
         {
-            if (!state)
+            if (!State)
             {
                 throw new InvalidOperationException("Cannot end cycle when washing machine is off");
             }
@@ -80,7 +80,7 @@ namespace SmartHouseProject.Models.Devices
             TimeLeft = 0;
             Console.WriteLine($"{Name} ended {CurrentMode} wash cycle.");
         }
-        private int GetCycleTime(Mode mode)
+        private static int GetCycleTime(Mode mode)
         {
             return mode switch
             {
@@ -93,7 +93,7 @@ namespace SmartHouseProject.Models.Devices
         }
         public override void statusReport()
         {
-            Console.WriteLine($"Report : device: {Name}, state: {(state ? "ON" : "OFF")}, washing: {IsRunning}");
+            Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, washing: {IsRunning}");
         }
     }
 }

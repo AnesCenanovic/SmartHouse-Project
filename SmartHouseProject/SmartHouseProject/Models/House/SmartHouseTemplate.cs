@@ -16,7 +16,7 @@ namespace SmartHouseProject.Models.House
         public int value { get; protected set; }
         public int size { get; protected set; }
 
-        private List<RoomTemplate> rooms = new List<RoomTemplate>();
+        private readonly List<RoomTemplate> rooms = new();
 
 
         public SmartHouseTemplate(string address,string name,int value, int size)

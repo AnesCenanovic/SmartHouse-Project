@@ -1,6 +1,7 @@
 ﻿using SmartHouseProject.Models.Rooms;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,17 +14,19 @@ namespace SmartHouseProject.Models.House
         public string address {  get; protected set; }
         public string name { get; protected set; }
         public int value { get; protected set; }
+        public int size { get; protected set; }
 
         private List<RoomTemplate> rooms = new List<RoomTemplate>();
 
 
-        public SmartHouseTemplate(string address,string name,int value)
+        public SmartHouseTemplate(string address,string name,int value, int size)
         {
             this.address = address;
             this.name = name;
             this.value = value;
+            this.size = size;
 
-            Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD");
+            Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD, size: {size}m2.");
         }
         public void AddNewRoom(RoomTemplate room)
         {

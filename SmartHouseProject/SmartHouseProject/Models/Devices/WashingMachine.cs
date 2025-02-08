@@ -91,7 +91,7 @@ namespace SmartHouseProject.Models.Devices
                 _ => 45
             };
         }
-        public override void statusReport()
+        public override void StatusReport()
         {
             Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, washing: {IsRunning}");
         }

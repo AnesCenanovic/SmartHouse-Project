@@ -43,9 +43,11 @@ namespace SmartHouseProject.Models.Rooms
             Console.WriteLine($"Room: {Name}");
             foreach (var device in Devices)
             {
-                device.statusReport();
+                device.StatusReport();
             }
         }
+
+        protected abstract void InitializeDevices();
     }
 
 }

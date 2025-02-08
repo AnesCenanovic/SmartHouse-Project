@@ -11,20 +11,20 @@ namespace SmartHouseProject.Models.House
     public abstract class SmartHouseTemplate
     {   
 
-        public string address {  get; protected set; }
-        public string name { get; protected set; }
-        public int value { get; protected set; }
-        public int size { get; protected set; }
+        public string Address {  get; protected set; }
+        public string Name { get; protected set; }
+        public int Value { get; protected set; }
+        public int Size { get; protected set; }
 
         private readonly List<RoomTemplate> rooms = new();
 
 
         public SmartHouseTemplate(string address,string name,int value, int size)
         {
-            this.address = address;
-            this.name = name;
-            this.value = value;
-            this.size = size;
+            this.Address = address;
+            this.Name = name;
+            this.Value = value;
+            this.Size = size;
 
             Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD, size: {size}m2.");
         }
@@ -42,7 +42,7 @@ namespace SmartHouseProject.Models.House
         {
             Console.WriteLine("Welcome to Your SmartHouse. Here's an overview:");
             foreach (RoomTemplate room in rooms) {
-                room.printDevices();
+                room.PrintDevices();
             }
         }
     }

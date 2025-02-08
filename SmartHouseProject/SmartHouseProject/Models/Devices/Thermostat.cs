@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartHouseProject.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class Thermostat : SmartDeviceTemplate {
+    public class Thermostat : SmartDeviceTemplate, ITemperatureDevices {
 
         public int TemperatureSetting { get; private set; } // Celsius
 
@@ -35,7 +36,7 @@ namespace SmartHouseProject.Models.Devices
             }
         }
 
-        public override void statusReport()
+        public override void StatusReport()
         {
             Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, temperature: {TemperatureSetting}°C");
         }

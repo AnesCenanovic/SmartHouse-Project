@@ -14,6 +14,7 @@ namespace SmartHouseProject.Models.Rooms
         protected override void InitializeDevices()
         {
             AddNewDevice(new Thermostat("Thermostat"));
+            AddNewDevice(new Light("Living Room light"));
         }
     }
 }

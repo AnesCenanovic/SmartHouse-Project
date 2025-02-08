@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartHouseProject.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public abstract class SmartDeviceTemplate
+    public abstract class SmartDeviceTemplate : ISmartDeviceTemplate
     {
         public string Name { get; protected set; } 
         public bool State { get; protected set; } // is on or off
@@ -16,14 +17,14 @@ namespace SmartHouseProject.Models.Devices
             State = false; // off by default
         }
 
-        public void turnStateOn()
+        public void TurnOn()
         {
             State = true;
         }
-        public void turnStateOff() { 
+        public void TurnOff() { 
             State = false; 
         }
 
-        public abstract void statusReport(); // za printanje detalja pojedinačnog uređaja
+        public abstract void StatusReport(); // za printanje detalja pojedinačnog uređaja
     }
 }

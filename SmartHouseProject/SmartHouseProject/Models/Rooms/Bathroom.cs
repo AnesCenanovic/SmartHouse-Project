@@ -16,6 +16,7 @@ namespace SmartHouseProject.Models.Rooms
         {
             AddNewDevice(new Boiler("Boiler"));
             AddNewDevice(new WashingMachine("Washing machine"));
+            AddNewDevice(new Light("Bahtroom light"));
         }
     }
 }

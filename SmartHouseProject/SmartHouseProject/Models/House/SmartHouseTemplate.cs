@@ -50,7 +50,7 @@ namespace SmartHouseProject.Models.House
         {
             foreach (RoomTemplate room in rooms)
             {
-                room.LockLocks();
+                room.LockSecurityDevices();
             }
         }
 
@@ -58,7 +58,7 @@ namespace SmartHouseProject.Models.House
         {
             foreach (RoomTemplate room in rooms)
             {
-                room.UnlockLocks();
+                room.UnlockSecurityDevices();
             }
         }
     }

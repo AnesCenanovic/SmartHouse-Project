@@ -9,7 +9,7 @@ namespace SmartHouseProject.Services
     public interface ILights
     {
         int Brightness { get; }
-        
+
         void SetBrightness(int brightness);
     }
 }

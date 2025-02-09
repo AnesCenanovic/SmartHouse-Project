@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartHouseProject.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class SmartTV : DeviceTemplate
+    public class SmartTV : DeviceTemplate, ILights
     {
         public int Volume { get; protected set; }
         public int ChannelNumber { get; protected set; }
-        public int ScreenBrightness {  get; protected set; }
+        public int Brightness {  get; protected set; }
 
         public SmartTV(string name, double powerConsumption, int volume=50, int channelNumber=1) : base(name, powerConsumption)
         {
@@ -49,7 +50,7 @@ namespace SmartHouseProject.Models.Devices
             Console.WriteLine($"{Name} channel set to {ChannelNumber}.");
         }
 
-        public void SetScreenBrightness(int percentage)
+        public void SetBrightness(int percentage)
         {
             if (!State)
             {
@@ -57,16 +58,16 @@ namespace SmartHouseProject.Models.Devices
             }
             if (percentage < 0)
             {
-                ScreenBrightness = 1;
+                Brightness = 1;
                 return;
             }
-            ScreenBrightness = Math.Min(percentage, 100); 
-            Console.WriteLine($"{Name} brightness set to {ScreenBrightness}.");
+            Brightness = Math.Min(percentage, 100); 
+            Console.WriteLine($"{Name} brightness set to {Brightness}.");
         }
 
         public override void StatusReport()
         {
-            Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, showing: {ChannelNumber}, at volume: {Volume}, brightness: {ScreenBrightness}");
+            Console.WriteLine($"Report : device: {Name}, state: {(State ? "ON" : "OFF")}, showing: {ChannelNumber}, at volume: {Volume}, brightness: {Brightness}");
         }
     }
 }

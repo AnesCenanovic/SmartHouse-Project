@@ -4,10 +4,11 @@ using System.Linq;
 using System.Runtime;
 using System.Text;
 using System.Threading.Tasks;
+using SmartHouseProject.Services_and_Interfaces;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class WashingMachine : DeviceTemplate
+    public class WashingMachine : DeviceTemplate, IAppliance
     {
         public bool IsRunning { get; protected set; }
         public int TimeLeft { get; protected set; }
@@ -27,23 +28,14 @@ namespace SmartHouseProject.Models.Devices
         {
             if (State && IsRunning)
             {
-                switch (number)
+                CurrentMode = number switch
                 {
-                    case 1:
-                        CurrentMode = Mode.Slow;
-                        break;
-                    case 2:
-                        CurrentMode = Mode.Medium;
-                        break;
-                    case 3:
-                        CurrentMode = Mode.Fast;
-                        break;
-                    case 4:
-                        CurrentMode = Mode.Turbo;
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException("Invalid wash setting");
-                }
+                    1 => Mode.Slow,
+                    2 => Mode.Medium,
+                    3 => Mode.Fast,
+                    4 => Mode.Turbo,
+                    _ => throw new ArgumentOutOfRangeException("Invalid wash setting"),
+                };
             }
             else
             {

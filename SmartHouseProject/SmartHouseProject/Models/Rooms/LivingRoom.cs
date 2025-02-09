@@ -1,4 +1,5 @@
 ﻿using SmartHouseProject.Models.Devices;
+using SmartHouseProject.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,9 @@ namespace SmartHouseProject.Models.Rooms
 
         protected override void InitializeDevices()
         {
-            AddNewDevice(new Thermostat("Thermostat"));
-            AddNewDevice(new Light("Living Room light"));
+            AddNewDevice(new Thermostat("Thermostat",10));
+            AddNewDevice(new Light("Living Room light",10));
+            AddNewLock(new BasicLock("Master lock"));
         }
     }
 }

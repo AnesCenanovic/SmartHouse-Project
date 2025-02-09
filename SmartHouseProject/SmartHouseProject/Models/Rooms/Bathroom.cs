@@ -1,4 +1,5 @@
 ﻿using SmartHouseProject.Models.Devices;
+using SmartHouseProject.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,10 @@ namespace SmartHouseProject.Models.Rooms
 
         protected override void InitializeDevices()
         {
-            AddNewDevice(new Boiler("Boiler"));
-            AddNewDevice(new WashingMachine("Washing machine"));
-            AddNewDevice(new Light("Bahtroom light"));
+            AddNewDevice(new Boiler("Boiler",100));
+            AddNewDevice(new WashingMachine("Washing machine",200));
+            AddNewDevice(new Light("Bahtroom light",10));
+            AddNewLock(new BasicLock("Bathroom lock"));
         }
     }
 }

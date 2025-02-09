@@ -11,7 +11,7 @@ namespace SmartHouseProject.Models.Devices
     {
         public string Name { get; protected set; } 
         public bool State { get; protected set; } // is on or off
-        public double PowerConsumption { get; protected set; } // watts
+        public double PowerConsumption { get; protected set; } // watts per hour
         public double PowerUsage {  get; protected set; } // usage for later bill calculation
         public DateTime? TimeSpentActive { get; protected set; } // total time spent consuming electricity
         public DeviceTemplate(string name,double powerConsumption) {
@@ -42,6 +42,8 @@ namespace SmartHouseProject.Models.Devices
                     TimeSpan timeActive = DateTime.Now - TimeSpentActive.Value;
                     PowerUsage += timeActive.TotalHours * PowerUsage; // logic for calculating power usage (in watts per hour)
                 }
+
+                TimeSpentActive = null;
             }
             else
             {
@@ -52,6 +54,15 @@ namespace SmartHouseProject.Models.Devices
         public double GetPowerUsage()
         {
             return PowerUsage;
+        }
+
+        public DateTime? GetTimeSpentActive()
+        {
+            if(TimeSpentActive == null)
+            {
+                return null;
+            }
+            return TimeSpentActive;
         }
 
         public abstract void StatusReport(); // za printanje detalja pojedinačnog uređaja, ovo implementiraju izvedene klase 

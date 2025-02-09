@@ -10,7 +10,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace SmartHouseProject.Utilities
 {
-    public static class HouseUtility // static class for miscellaneous function and tracking 
+    public static class HouseUtilityLogs // static class for miscellaneous function and tracking 
     {
         private static readonly List<Log> Logs = new();
 

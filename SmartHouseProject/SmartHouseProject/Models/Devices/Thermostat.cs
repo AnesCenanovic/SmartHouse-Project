@@ -11,7 +11,7 @@ namespace SmartHouseProject.Models.Devices
 
         public int TemperatureSetting { get; private set; } // Celsius
 
-        public Thermostat(string name,int temperature=20) : base(name) {
+        public Thermostat(string name,double powerConsumption, int temperature=20) : base(name,powerConsumption) {
             this.TemperatureSetting = temperature;
         }
             

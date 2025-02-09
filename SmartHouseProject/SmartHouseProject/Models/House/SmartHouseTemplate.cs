@@ -28,7 +28,7 @@ namespace SmartHouseProject.Models.House
 
             Console.WriteLine($"New SmartHouse added!{name}, on address: {address}, worth: {value}$ USD, size: {size}m2.");
         }
-        public void AddNewFloor(RoomTemplate room)
+        public void AddNewRoom(RoomTemplate room)
         {
             rooms.Add(room);
         }
@@ -38,11 +38,27 @@ namespace SmartHouseProject.Models.House
         }
         public List<RoomTemplate> GetRooms() { return rooms; }
 
-        public void printInfo()
+        public void PrintInfo()
         {
             Console.WriteLine("Welcome to Your SmartHouse. Here's an overview:");
             foreach (RoomTemplate room in rooms) {
                 room.PrintDevices();
+            }
+        }
+
+        public void LockHouseLocks()
+        {
+            foreach (RoomTemplate room in rooms)
+            {
+                room.LockLocks();
+            }
+        }
+
+        public void UnlockHouseLocks()
+        {
+            foreach (RoomTemplate room in rooms)
+            {
+                room.UnlockLocks();
             }
         }
     }

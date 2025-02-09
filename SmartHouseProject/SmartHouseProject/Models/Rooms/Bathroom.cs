@@ -11,7 +11,9 @@ namespace SmartHouseProject.Models.Rooms
     public class Bathroom : RoomTemplate
     {
 
-        public Bathroom(string name,double size) : base(name, size) { }
+        public Bathroom(string name,double size) : base(name, size) { 
+            InitializeDevices();
+        }
 
         protected override void InitializeDevices()
         {

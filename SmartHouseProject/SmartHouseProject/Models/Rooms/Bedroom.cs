@@ -8,19 +8,17 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Rooms
 {
-    public class LivingRoom : RoomTemplate
+    public class Bedroom : RoomTemplate
     {
-        public LivingRoom(string name, double size) : base(name, size) {
-            InitializeDevices();
+        public Bedroom(string name, double size) : base(name, size) {
+        InitializeDevices();
         }
 
         protected override void InitializeDevices()
         {
-            AddNewDevice(new Thermostat("Thermostat",10));
-            AddNewDevice(new Light("Living Room light",10));
-            AddNewDevice(new SmartTV("TV", 200));
+            AddNewDevice(new Light("Bedroom light", 10));
             AddNewDevice(new SmartCurtains("Living Room Curtains", 10));
-            AddNewLock(new BasicLock("Master lock"));
+            AddNewLock(new BasicLock("Bedroom lock"));
         }
 
         public override void NightMode()
@@ -37,11 +35,6 @@ namespace SmartHouseProject.Models.Rooms
                 {
                     smartCurtains.CloseCurtains();
                 }
-                else if (device is SmartTV smartTV)
-                {
-                    smartTV.SetScreenBrightness(25);
-                }
-
             }
         }
 
@@ -58,10 +51,6 @@ namespace SmartHouseProject.Models.Rooms
                 else if (device is SmartCurtains smartCurtains)
                 {
                     smartCurtains.OpenCurtains();
-                }
-                else if (device is SmartTV smartTV)
-                {
-                    smartTV.SetScreenBrightness(100);
                 }
             }
         }

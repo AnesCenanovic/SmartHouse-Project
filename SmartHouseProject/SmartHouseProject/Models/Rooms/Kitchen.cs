@@ -10,13 +10,15 @@ namespace SmartHouseProject.Models.Rooms
 {
     public class Kitchen : RoomTemplate
     {
-        public Kitchen(string name, double size) : base(name, size) { }
+        public Kitchen(string name, double size) : base(name, size) {
+            InitializeDevices();
+        }
 
         protected override void InitializeDevices()
         {
             AddNewDevice(new Light("Kitchen light",20));
             AddNewDevice(new Fridge("Fridge", 100));
-            //Oven, fridge, etc planned
+            AddNewDevice(new Oven("Oven", 400));
         }
     }
 }

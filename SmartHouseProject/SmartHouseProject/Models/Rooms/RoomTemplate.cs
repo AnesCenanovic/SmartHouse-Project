@@ -5,10 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SmartHouseProject.Services_and_Interfaces;
+using SmartHouseProject.Services;
 
 namespace SmartHouseProject.Models.Rooms
 {
-    public abstract class RoomTemplate
+    public abstract class RoomTemplate : IRoomMoods
     {
         public string Name { get; set; }
         public double Size { get; private set; }
@@ -93,6 +95,33 @@ namespace SmartHouseProject.Models.Rooms
         }
 
         protected abstract void InitializeDevices();
+
+        public virtual void ChangeMood(bool isNighttime)
+        {
+            if (isNighttime)
+            {
+                NightMode();
+            }
+            else
+            {
+                DayMode();
+            }
+        }
+
+        // IRoomMoods interface
+        public virtual void NightMode()
+        {
+            Console.WriteLine($"{Name} is in Night Mode.");
+            // default behavior that we can change later or keep this one
+        }
+
+        public virtual void DayMode()
+        {
+            Console.WriteLine($"{Name} is in Day Mode.");
+            // default behavior that we can change later or keep this one
+        }
+
+
     }
 
 }

@@ -8,7 +8,7 @@ using static SmartHouseProject.Models.Devices.WashingMachine;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class Light : SmartDeviceTemplate
+    public class Light : DeviceTemplate
     {
         public int Brightness { get; private set; }
 

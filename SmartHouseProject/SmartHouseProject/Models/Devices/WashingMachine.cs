@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class WashingMachine : SmartDeviceTemplate
+    public class WashingMachine : DeviceTemplate
     {
         public bool IsRunning { get; protected set; }
         public int TimeLeft { get; protected set; }

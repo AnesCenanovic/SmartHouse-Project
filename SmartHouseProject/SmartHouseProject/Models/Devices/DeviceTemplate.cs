@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public abstract class SmartDeviceTemplate : ISmartDeviceTemplate
+    public abstract class DeviceTemplate : ISmartDeviceTemplate
     {
         public string Name { get; protected set; } 
         public bool State { get; protected set; } // is on or off
 
-        public SmartDeviceTemplate(string name) {
+        public DeviceTemplate(string name) {
             Name = name;
             State = false; // off by default
         }

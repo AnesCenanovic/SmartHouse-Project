@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Models.Devices
 {
-    public class Boiler : SmartDeviceTemplate, ITemperatureDevices
+    public class Boiler : DeviceTemplate, ITemperatureDevices
     {
         public int TemperatureSetting { get; private set; } // Celsius
 

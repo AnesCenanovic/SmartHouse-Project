@@ -1,4 +1,6 @@
 ﻿using System;
+using SmartHouseProject.Models.Rooms;
+using SmartHouseProject.Models.Devices;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +8,32 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Utilities
 {
-    public static class Log
+    public class Log
     {
-        public static void LogData(string message)
+        public string Content { get; set; }
+        public DateTime DateCreated { get; set; }
+        public RoomTemplate? TiedToRoom { get; set; }  // can but doesn't have to be tied to a room
+        public DeviceTemplate? TiedToDevice { get; set; } // can but doesn't have to be tied to a device
+        
+        public Log(string content, RoomTemplate? room, DeviceTemplate? device, DateTime date)
         {
-            Console.WriteLine($"[LOG] {message}");
+            Content= content;
+            DateCreated = date;
+            TiedToRoom = room;
+            TiedToDevice = device;
+        }
+        public override string ToString()
+        {
+            string log = $"({DateCreated}) {Content}";
+
+            if(TiedToRoom != null) {
+                log += $" Tied To Room: {TiedToRoom.Name}";
+            }
+            if (TiedToDevice != null)
+            {
+                log += $" Tied To Device: {TiedToDevice.Name}";
+            }
+            return log;
         }
     }
 }

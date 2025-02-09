@@ -11,7 +11,7 @@ namespace SmartHouseProject.Models.Rooms
     {
         public string Name { get; set; }
         public double Size { get; private set; }
-        public List<SmartDeviceTemplate> Devices { get; private set; } = new(); // all devices tied to the room
+        public List<DeviceTemplate> Devices { get; private set; } = new(); // all devices tied to the room
 
 
         public RoomTemplate(string name,double size)
@@ -20,12 +20,12 @@ namespace SmartHouseProject.Models.Rooms
             Size = size;
         }
 
-        public void AddNewDevice(SmartDeviceTemplate device)
+        public void AddNewDevice(DeviceTemplate device)
         {
             Devices.Add(device);
         }
 
-        public void RemoveDevice(SmartDeviceTemplate device)
+        public void RemoveDevice(DeviceTemplate device)
         {
             if (Devices.Contains(device))
             {

@@ -13,11 +13,11 @@ namespace SmartHouseProject.Models.Devices
 
         public bool IsHeating { get; private set; }
 
-        public Boiler(string name,int temperature=20, bool isHeating=false) : base(name) {
+        public Boiler(string name, double powerConsumption, int temperature=20, bool isHeating=false) : base(name,powerConsumption) {
             this.TemperatureSetting = temperature;
             this.IsHeating = isHeating;
         }
-        public void toggleHeating()
+        public void ToggleHeating()
         {
             if (IsHeating) {IsHeating = false;}
             else {IsHeating = true;}

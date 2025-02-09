@@ -16,7 +16,7 @@ namespace SmartHouseProject.Models.Devices
 
         public Mode CurrentMode { get; protected set; }
 
-        public WashingMachine(string name) : base(name)
+        public WashingMachine(string name, double powerConsumption) : base(name,powerConsumption)
         {
             IsRunning = false;
             TimeLeft = 0;

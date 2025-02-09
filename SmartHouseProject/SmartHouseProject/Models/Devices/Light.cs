@@ -16,7 +16,7 @@ namespace SmartHouseProject.Models.Devices
 
         public Color Hue { get; private set; }
 
-        public Light(string name, int brightness=50)  : base(name)
+        public Light(string name, double powerConsumption,int brightness=50)  : base(name,powerConsumption)
         {
             Brightness = brightness;
             Hue = Color.White;

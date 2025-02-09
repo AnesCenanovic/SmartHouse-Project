@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SmartHouseProject.Services
 {
-    internal interface IRoomMoods
+    public interface IRoomMoods
     {
+        void NightMode();
+        void DayMode();
     }
 }

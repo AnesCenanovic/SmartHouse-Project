@@ -49,6 +49,11 @@ namespace SmartHouseProject.Models.Devices
             }
         }
 
+        public double GetPowerUsage()
+        {
+            return PowerUsage;
+        }
+
         public abstract void StatusReport(); // za printanje detalja pojedinačnog uređaja, ovo implementiraju izvedene klase 
     }
 }

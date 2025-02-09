@@ -13,15 +13,23 @@ namespace SmartHouseProject.Models.Rooms
     public abstract class RoomTemplate : IRoomMoods
     {
         public string Name { get; set; }
-        public double Size { get; private set; }
         public List<DeviceTemplate> Devices { get; private set; } = new(); // all devices tied to the room
         public List<LockTemplate> Locks { get; private set; } = new(); // all locks tied to the room
 
 
-        public RoomTemplate(string name,double size)
+        public RoomTemplate(string name)
         {
             Name = name;
-            Size = size;
+        }
+
+        public List <DeviceTemplate> GetAllDevices()
+        {
+            return Devices;
+        }
+
+        public List<LockTemplate> GetAllLocks()
+        {
+            return Locks;
         }
 
         public void AddNewDevice(DeviceTemplate device)

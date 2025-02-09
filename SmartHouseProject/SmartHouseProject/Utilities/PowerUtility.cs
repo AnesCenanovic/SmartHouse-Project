@@ -41,28 +41,5 @@ namespace SmartHouseProject.Utilities
             }
             return result;
         }
-
-        public static double CalculateRuntime(List<DeviceTemplate> devices)
-        {
-            double result = 0;
-            foreach (DeviceTemplate device in devices)
-            {
-                if (device.State && device.GetPowerUsage() > 0)
-                {
-                    TimeSpan total;
-                    if (device.GetTimeSpentActive() != null)
-                    {
-                        total = DateTime.Now - device.GetTimeSpentActive().Value;
-                    }
-                    else
-                    {
-                        total = TimeSpan.Zero;
-                    }
-                    result += total.TotalHours;
-                }
-            }
-            return result;
-        }
-
     }
 }

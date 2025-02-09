@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\house\\floortemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\house\\floortemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\security\\locktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\security\\locktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\devices\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\devices\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\rooms\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\rooms\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\house\\smarthousetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\house\\smarthousetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\devices\\oven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\devices\\oven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\devices\\fridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\devices\\fridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\utilities\\powerutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\utilities\\powerutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\utilities\\houseutilitylogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\utilities\\houseutilitylogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\rooms\\roomtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\rooms\\roomtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\devices\\smartdevicetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\devices\\smartdevicetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\rooms\\livingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\rooms\\livingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\utilities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\utilities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\house\\smarthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\house\\smarthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\rooms\\bedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\rooms\\bedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|c:\\users\\clancy\\documents\\github\\smarthouse-project\\smarthouseproject\\smarthouseproject\\models\\rooms\\bathroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CEE1E6-4F9B-46DF-8B4E-3D877B1A3048}|SmartHouseProject\\SmartHouseProject.csproj|solutionrelative:smarthouseproject\\models\\rooms\\bathroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +78,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FloorTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\FloorTemplate.cs",
-              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\House\\FloorTemplate.cs",
-              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\FloorTemplate.cs",
-              "RelativeToolTip": "SmartHouseProject\\Models\\House\\FloorTemplate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T23:14:16.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SmartHouseTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
-              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
-              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
-              "RelativeToolTip": "SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Title": "LockTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Security\\LockTemplate.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Security\\LockTemplate.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Security\\LockTemplate.cs",
+              "RelativeToolTip": "SmartHouseProject\\Security\\LockTemplate.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwGoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:44:53.092Z",
+              "WhenOpened": "2025-02-09T19:46:57.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoomTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
-              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
-              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
-              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Fridge.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\Fridge.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Devices\\Fridge.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\Fridge.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Devices\\Fridge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:36:42.175Z",
+              "WhenOpened": "2025-02-09T19:43:17.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SmartDeviceTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\SmartDeviceTemplate.cs",
-              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Devices\\SmartDeviceTemplate.cs",
-              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\SmartDeviceTemplate.cs",
-              "RelativeToolTip": "SmartHouseProject\\Models\\Devices\\SmartDeviceTemplate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PowerUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\PowerUtility.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Utilities\\PowerUtility.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\PowerUtility.cs",
+              "RelativeToolTip": "SmartHouseProject\\Utilities\\PowerUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:31:20.758Z",
+              "WhenOpened": "2025-02-09T19:34:39.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WashingMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\WashingMachine.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Devices\\WashingMachine.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\WashingMachine.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Devices\\WashingMachine.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:29:53.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Oven.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\Oven.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Devices\\Oven.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Devices\\Oven.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Devices\\Oven.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:27:34.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\Log.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Utilities\\Log.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\Log.cs",
+              "RelativeToolTip": "SmartHouseProject\\Utilities\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:21:37.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HouseUtilityLogs.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\HouseUtilityLogs.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Utilities\\HouseUtilityLogs.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Utilities\\HouseUtilityLogs.cs",
+              "RelativeToolTip": "SmartHouseProject\\Utilities\\HouseUtilityLogs.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:20:09.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kitchen.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Kitchen.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\Kitchen.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Kitchen.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\Kitchen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:59:38.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\RoomTemplate.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:58:57.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SmartHouse.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouse.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\House\\SmartHouse.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouse.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\House\\SmartHouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:56:21.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Program.cs",
               "RelativeDocumentMoniker": "SmartHouseProject\\Program.cs",
               "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Program.cs",
               "RelativeToolTip": "SmartHouseProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T16:43:26.315Z",
+              "WhenOpened": "2025-02-09T18:46:47.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartHouseTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\House\\SmartHouseTemplate.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwGUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:37:38.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LivingRoom.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\LivingRoom.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\LivingRoom.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\LivingRoom.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\LivingRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:33:38.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bathroom.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Bathroom.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\Bathroom.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Bathroom.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\Bathroom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:11:41.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bedroom.cs",
+              "DocumentMoniker": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Bedroom.cs",
+              "RelativeDocumentMoniker": "SmartHouseProject\\Models\\Rooms\\Bedroom.cs",
+              "ToolTip": "C:\\Users\\Clancy\\Documents\\GitHub\\SmartHouse-Project\\SmartHouseProject\\SmartHouseProject\\Models\\Rooms\\Bedroom.cs",
+              "RelativeToolTip": "SmartHouseProject\\Models\\Rooms\\Bedroom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:10:14.839Z",
               "EditorCaption": ""
             }
           ]

@@ -15,7 +15,7 @@ namespace SmartHouseProject.Utilities
         public RoomTemplate? TiedToRoom { get; set; }  // can but doesn't have to be tied to a room
         public DeviceTemplate? TiedToDevice { get; set; } // can but doesn't have to be tied to a device
         
-        public Log(string content, RoomTemplate? room, DeviceTemplate? device, DateTime date)
+        public Log(string content,DateTime date, RoomTemplate? room=null, DeviceTemplate? device=null)
         {
             Content= content;
             DateCreated = date;

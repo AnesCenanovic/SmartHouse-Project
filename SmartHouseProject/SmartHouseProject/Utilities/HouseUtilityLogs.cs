@@ -18,7 +18,7 @@ namespace SmartHouseProject.Utilities
 
         public static void AddLog(string content, DateTime date, RoomTemplate? room = null, DeviceTemplate? device = null)
         {
-            Log Log = new(content,room,device,date);
+            Log Log = new(content,date,room,device);
             Logs.Add(Log);
             Console.WriteLine(Log.ToString());
             WriteLogFile(Log);
@@ -52,7 +52,7 @@ namespace SmartHouseProject.Utilities
             return Logs.Where(Log => Log.TiedToDevice == device).ToList();
         }
 
-        public static void WriteLogFile(Log log)
+        private static void WriteLogFile(Log log)
         {
             string toWrite = log.ToString();
 

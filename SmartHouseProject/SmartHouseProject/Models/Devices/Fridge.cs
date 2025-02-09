@@ -15,7 +15,7 @@ namespace SmartHouseProject.Models.Devices
 
         public Fridge(string name, double powerConsumption) : base(name, powerConsumption)
         {
-            IsRunning = false;
+            IsRunning = true;
             TemperatureSetting = 3; // default
         }
         public void SetTemperature(int temperature)

@@ -13,7 +13,7 @@ namespace SmartHouseProject.Models.Devices
 
         public Oven(string name, double powerConsumption) : base(name, powerConsumption)
         {
-            IsRunning = false;
+            IsRunning = true;
             TimeLeft = 0;
             CurrentMode = Mode.Even;
         }
@@ -72,7 +72,7 @@ namespace SmartHouseProject.Models.Devices
                 throw new InvalidOperationException("Cooking cycle already ended.");
             }
 
-            IsRunning = false;
+            IsRunning = true;
             Console.WriteLine($"{Name} started {CurrentMode} cook cycle. Time left : {TimeLeft}.");
         }
         public void EndCycle()

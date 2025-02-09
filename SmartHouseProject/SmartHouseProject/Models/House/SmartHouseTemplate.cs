@@ -61,5 +61,47 @@ namespace SmartHouseProject.Models.House
                 room.UnlockSecurityDevices();
             }
         }
+
+        public void TurnOnAllDevices()
+        {
+            foreach (RoomTemplate room in rooms)
+            {
+                foreach (var device in room.GetAllDevices())
+                {
+                    device.TurnOn();
+                }
+            }
+        }
+
+        public void TurnOffAllDevices()
+        {
+            foreach (RoomTemplate room in rooms)
+            {
+                foreach (var device in room.GetAllDevices())
+                {
+                    device.TurnOff();
+                }
+            }
+        }
+
+        public RoomTemplate GetLivingRoom()
+        {
+            return rooms.FirstOrDefault(room => room is LivingRoom);
+        }
+
+        public RoomTemplate GetBathroom()
+        {
+            return rooms.FirstOrDefault(room => room is Bathroom);
+        }
+
+        public RoomTemplate GetBedroom()
+        {
+            return rooms.FirstOrDefault(room => room is Bedroom);
+        }
+
+        public RoomTemplate GetKitchen()
+        {
+            return rooms.FirstOrDefault(room => room is Kitchen);
+        }
     }
 }

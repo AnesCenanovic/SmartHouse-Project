@@ -10,7 +10,7 @@ namespace SmartHouseProject.Models.Rooms
 {
     public class Kitchen : RoomTemplate
     {
-        public Kitchen(string name, double size) : base(name, size) {
+        public Kitchen(string name) : base(name) {
             InitializeDevices();
         }
 

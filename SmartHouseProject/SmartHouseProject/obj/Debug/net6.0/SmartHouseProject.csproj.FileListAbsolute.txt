@@ -1,0 +1,15 @@
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.AssemblyInfoInputs.cache
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.AssemblyInfo.cs
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.csproj.CoreCompileInputs.cache
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.sourcelink.json
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\bin\Debug\net6.0\SmartHouseProject.exe
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\bin\Debug\net6.0\SmartHouseProject.deps.json
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\bin\Debug\net6.0\SmartHouseProject.runtimeconfig.json
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\bin\Debug\net6.0\SmartHouseProject.dll
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\bin\Debug\net6.0\SmartHouseProject.pdb
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.dll
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\refint\SmartHouseProject.dll
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.pdb
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\SmartHouseProject.genruntimeconfig.cache
+C:\Users\Clancy\Documents\GitHub\SmartHouse-Project\SmartHouseProject\SmartHouseProject\obj\Debug\net6.0\ref\SmartHouseProject.dll

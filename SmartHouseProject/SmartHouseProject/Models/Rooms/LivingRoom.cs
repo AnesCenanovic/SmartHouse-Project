@@ -10,7 +10,7 @@ namespace SmartHouseProject.Models.Rooms
 {
     public class LivingRoom : RoomTemplate
     {
-        public LivingRoom(string name, double size) : base(name, size) {
+        public LivingRoom(string name) : base(name) {
             InitializeDevices();
         }
 
@@ -39,7 +39,7 @@ namespace SmartHouseProject.Models.Rooms
                 }
                 else if (device is SmartTV smartTV)
                 {
-                    smartTV.SetScreenBrightness(25);
+                    smartTV.SetBrightness(25);
                 }
 
             }
@@ -61,7 +61,7 @@ namespace SmartHouseProject.Models.Rooms
                 }
                 else if (device is SmartTV smartTV)
                 {
-                    smartTV.SetScreenBrightness(100);
+                    smartTV.SetBrightness(100);
                 }
             }
         }
